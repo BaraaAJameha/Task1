@@ -1,0 +1,182 @@
+.topnav {
+  position: relative;
+  overflow: hidden;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+.topnav a {
+  float: left;
+  color: #220938;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.active {
+  color: #220938;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #1D2C7F;
+}
+
+.topnav-right {
+  float: right;
+
+}
+
+.topnav-right button{
+  background-color: #121561;
+  color:#FFFFFF;
+  width: 120px;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+
+.main{
+    position: relative;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  
+}
+
+.part1 h1{
+  white-space: pre;
+  
+
+}
+
+.part1 p {
+    white-space: pre;
+    color: #220938;
+  }
+
+
+  button{
+  background-color: #121561;
+  color:#FFFFFF;
+  width: 120px;
+  }
+
+
+
+  .part1 img{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 300px;
+  height: 300px;
+  }
+
+
+  .part2 img{
+    position: absolute;
+    top: 300px;
+    right:0px;
+    width:300px;
+    height: 300px;
+    }
+
+    .part2 p {
+      white-space: pre;
+        }
+
+
+
+    .part3 p {
+        white-space: pre;
+        float: right;
+    }
+
+
+    .part4 p {
+      white-space: pre;
+      float: right;
+
+    }
+
+    .part5 p {
+      white-space: pre;
+      float: right;
+
+    }
+
+
+    .part3 img{
+    
+      top: 300px;
+      left: 0px;
+      width:300px;
+      height: 300px;
+      }
+
+
+      .part4 img{
+        top: 300px;
+        left:0px;
+        width:300px;
+        height: 300px;
+        }
+
+
+        .part5 img{
+          
+          top: 300px;
+          left:0px;
+          width:300px;
+          height: 300px;
+          }
+
+          
+          .part3 h2{
+            text-align: right;
+          }
+
+          .part4 h2{
+            text-align: right;
+          }
+          .part5 h2{
+            text-align: right;
+          }
+
+
+          .footer {
+            text-align: center;
+          }
+          .footer p{
+            white-space: pre;
+            color: #220938;
+          }
+
+          .footer h2{
+           color: #121561;;
+          }
+
+          .footer button{
+            
+              background-color: #121561;
+              color:#FFFFFF;
+              width: 170px;
+              
+          }
